@@ -54,6 +54,8 @@ ul.posts li {
 li.toolbar-right{
 	float:right;
 	margin-right: 5px;
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .adsbygoogle{
