@@ -3,27 +3,27 @@ layout: default
 title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
 ---
 <ul style="list-style: none;">
-			<li class="link-toolbar-right">
-				<a href="https://github.com/7DaysToMod/7DTMLib" class="social-icon" target="_blank" title="View on Github">
-					<img src="/images/Octocat.png" height="30">
-				</a>
-			</li>
-			<li class="link-toolbar-right">
-				<a href="https://trello.com/b/yYcV165k/7dtmlib" class="social-icon" target="_blank" title="TODO List on Trello">
-					<img src="/images/trello.png" height="30">
-				</a>
-			</li>
-			<li class="link-toolbar-right">
-				<a href="http://7daystodie.com/forums/" class="social-icon" target="_blank" title="7DaysToDie.com Forum Post">
-					<img src="/images/placeholder_small.png" height="30">
-				</a>
-			</li>
-			<li class="link-toolbar-right">
-				<a href="https://github.com/7DaysToMod/7dtmlib/releases" class="social-icon" target="_blank" title="Downloads">
-					<img src="/images/download.png" height="30">
-				</a>
-			</li>
-		</ul>
+	<li class="link-toolbar-right">
+		<a href="https://github.com/7DaysToMod/7DTMLib" class="social-icon" target="_blank" title="View on Github">
+			<img src="/images/Octocat.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="https://trello.com/b/yYcV165k/7dtmlib" class="social-icon" target="_blank" title="TODO List on Trello">
+			<img src="/images/trello.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="http://7daystodie.com/forums/" class="social-icon" target="_blank" title="7DaysToDie.com Forum Post">
+			<img src="/images/placeholder_small.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="https://github.com/7DaysToMod/7dtmlib/releases" class="social-icon" target="_blank" title="Downloads">
+			<img src="/images/download.png" height="30">
+		</a>
+	</li>
+</ul>
 		
 # 7dtmlib - Dedicated Servers Only
 Modding Utility Library for 7 Days to Die Dedicated Server Mods
