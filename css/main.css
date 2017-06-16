@@ -5,18 +5,23 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
     background-color: #333;
     color: #D3D4D9;
+    float: left;
+    clear: right;
+    width: 100%;
 }
 nav ul li, footer ul li {
-    display: inline;
     margin-right: 20px;
     padding: 1em;
+    margin: 1em;
+    float: left;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -45,4 +50,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+ul.toolbar-right{
+	float:right;
 }
