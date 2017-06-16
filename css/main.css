@@ -52,6 +52,6 @@ ul.posts li {
     list-style: none;
 }
 
-ul.toolbar-right{
+li.toolbar-right{
 	float:right;
 }
