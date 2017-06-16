@@ -55,3 +55,8 @@ ul.posts li {
 li.toolbar-right{
 	float:right;
 }
+
+.adsbygoogle{
+	margin-left: auto;
+	margin-right:auto;
+}
