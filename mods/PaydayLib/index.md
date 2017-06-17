@@ -28,3 +28,5 @@ title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
 # PaydayLib
 
 Server Economy mod for 7 days to die dedicated servers.
+
+{% include serverinstall.md %}

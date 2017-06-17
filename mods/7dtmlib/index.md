@@ -24,7 +24,7 @@ title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
 		</a>
 	</li>
 </ul>
-		
+
 # 7dtmlib - Dedicated Servers Only
 Modding Utility Library for 7 Days to Die Dedicated Server Mods
 
@@ -58,13 +58,7 @@ See the [Chat Commands](./docs/chatcommands.md) docs for more infortmation.
 
 See the [Utility Classes](./docs/utilityclasses.md) docs for more information.
 
-## Server Installation
-1. Download the mod using the links above.
-2. Extract the files
-3. Copy the Folder containing the DLL and ModInfo.xml into your Server Mods Folder.*
-4. Restart your Server
-
-* Some Game Server Providers do not allow you to install mods yourself. You will need to submit a support ticket with the URL of this page, requesting your provider to install the mod for you.
+{% include serverinstall.md %}
 
 ## Using 7dtmlib in your Server Mods
 Simply download the .dll file and add a reference to it in your project.
