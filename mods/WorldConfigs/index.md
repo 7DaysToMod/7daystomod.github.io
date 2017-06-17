@@ -34,13 +34,17 @@ On server startup, World Configs will check to see if a backup of the XML Config
 
 This allows you to switch between custom xml configs without the hassle of manually backing up and restoring the XML Configs.
 
-__Be aware!__  Once enabled, and run for the first time, any changes to the XML Configs in the default Config directory will be overwritten by the backup in the world save folder.  You must remember to change the configs in the world save folder. for example 7daystodie_folder/saves/&lt;world_type&gt;/&lt;WorldSaveName&gt;/WorldConfigs/Data/Config
+__Be aware!__  Once enabled, and run for the first time, any changes to the XML Configs in the default Config directory will be overwritten by the backup in the world save folder.  You must remember to change the configs in the world save folder. 
+
+For example 7daystodie_folder/saves/&lt;world_type&gt;/&lt;WorldSaveName&gt;/WorldConfigs/Data/Config
 
 ## Using World Configs
 
 Once installed, there is nothing you have to do to utilise the WorldConfigs mod.  Simply change your world type or world name via your normal method, and WorldConfigs will take care of the rest.
 
-__Be aware!__  Once enabled, and run for the first time, any changes to the XML Configs in the default Config directory will be overwritten by the backup in the world save folder.  You must remember to change the configs in the world save folder. for example 7daystodie_folder/saves/&lt;world_type&gt;/&lt;WorldSaveName&gt;/WorldConfigs/Data/Config
+__Be aware!__  Once enabled, and run for the first time, any changes to the XML Configs in the default Config directory will be overwritten by the backup in the world save folder.  You must remember to change the configs in the world save folder. 
+
+For example 7daystodie_folder/saves/&lt;world_type&gt;/&lt;WorldSaveName&gt;/WorldConfigs/Data/Config
 
 
 ## Chat Commands
