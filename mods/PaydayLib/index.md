@@ -87,4 +87,10 @@ paydaylib enabletimer
 
 [7dtmWarpLib](http://7daystomod.com/mods/warplib) - Adds purchasable chat commands for player home warps.
 
+__Coming soon__
+
+PaydayCarepackages - Buy a flare that will call in an air drop.
+
+PaydayAmmo - Buy ammo for the weapon you are holding
+
 {% include serverinstall.md %}
