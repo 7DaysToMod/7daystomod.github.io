@@ -1,0 +1,35 @@
+---
+layout: default
+title: 7DaysToMod - Dedicated Server Mods - WorldTools
+---
+<ul style="list-style: none;">
+	<li class="link-toolbar-right">
+		<a href="https://github.com/7DaysToMod/worldtools" class="social-icon" target="_blank" title="View on Github">
+			<img src="/images/Octocat.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="https://trello.com/b/ubhbKNfD/worldtools" class="social-icon" target="_blank" title="TODO List on Trello">
+			<img src="/images/trello.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="http://7daystodie.com/forums/" class="social-icon" target="_blank" title="7DaysToDie.com Forum Post">
+			<img src="/images/placeholder_small.png" height="30">
+		</a>
+	</li>
+	<li class="link-toolbar-right">
+		<a href="https://github.com/7DaysToMod/worldtools/releases" class="social-icon" target="_blank" title="Downloads">
+			<img src="/images/download.png" height="30">
+		</a>
+	</li>
+</ul>
+
+# WorldTools
+
+World Editing commands for Dedicated Servers.
+
+{% include serverinstall.md %}
+
+## Console Commands
+

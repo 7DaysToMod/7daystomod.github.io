@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
+title: 7DaysToMod - Dedicated Server Mods - PaydayLib
 ---
 <ul style="list-style: none;">
 	<li class="link-toolbar-right">
