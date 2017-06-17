@@ -43,6 +43,6 @@ This mod requires the following mods to already be installed on the server.
 
 __!bounties__ - Show a list of current player bounties.
 
-__!bounty <PlayerName> <amount>__ - Create a new bounty.  If a bounty on a player already exists, the amount will be added to the bounty total.
+__!bounty &lt;PlayerName&gt; &lt;amount&gt;__ - Create a new bounty.  If a bounty on a player already exists, the amount will be added to the bounty total.
 
 {% include serverinstall.md %}

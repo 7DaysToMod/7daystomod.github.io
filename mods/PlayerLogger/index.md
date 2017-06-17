@@ -29,6 +29,12 @@ title: 7DaysToMod - Dedicated Server Mods - PlayerLogger
 
 Simple Player Event Logging for dedicated servers.
 
+## Current Features
+
+Chat Logs - PlayerLogger keeps a log of the player chat in the world save folder
+
+Block Breaking - PlayerLogger provides a feature for logging the position of players when blocks in a defined list are broken
+
 {% include serverinstall.md %}
 
 ## Using Player Logger
