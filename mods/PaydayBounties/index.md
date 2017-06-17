@@ -31,10 +31,18 @@ Player Bounty Addon for [PaydayLib](http://7daystomod.com/mods/paydaylib)
 
 PaydayBounties adds 2 Chat Commands to enable viewing and creating bounties on other players using your PaydayLib Currency.
 
-{% include serverinstall.md %}
+## Dependencies
+
+This mod requires the following mods to already be installed on the server.
+
+[7dtmlib](http://7daystomod.com/mods/7dtmlib)
+
+[PaydayLib](http://7daystomod.com/mods/PaydayLib)
 
 ## Chat Commands
 
 __!bounties__ - Show a list of current player bounties.
 
 __!bounty <PlayerName> <amount>__ - Create a new bounty.  If a bounty on a player already exists, the amount will be added to the bounty total.
+
+{% include serverinstall.md %}

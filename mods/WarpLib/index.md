@@ -29,11 +29,50 @@ title: 7DaysToMod - Dedicated Server Mods - WarpLib
 
 Server Warps.
 
-{% include serverinstall.md %}
+## Dependencies
+
+This mod requires the following mods to already be installed on the server.
+
+[7dtmlib](http://7daystomod.com/mods/7dtmlib)
+
+## Optional dependencies
+
+This mod also contains support for the following mods, if they are already installed on the server.
+
+[PaydayLib](http://7daystomod.com/mods/PaydayLib)
 
 ## Console Commands
 
+__warps list__ - Lists all available server warps
+
+__warps add &lt;WarpName&gt; &lt;WarpCost&gt;__ - Creates a new warp at the player location called &lt;WarpName&gt;, with and optional PaydayLib cost of &lt;WarpCost&gt;.
+
+__warps remove &lt;WarpName&gt;__ - Removes the server warp called &lt;WarpName&gt;
+
+__warp &lt;WarpName&gt;__ Warps the player to the location of the server warp &lt;WarpName&gt;
+
+__sethome__ - Sets the player home warp Location to their current position
+
+__clearhome__ - Clears the player home warp location.
+
+__gohome__ - Warp the player to their current home warp location.
+
 ## Chat Commands
 
-## PaydayLib Products
+__!warps__ - Lists all available server warps
 
+__!warp &lt;WarpName&gt;__ Warps the player to the location of the server warp &lt;WarpName&gt;
+
+__!sethome__ - Sets the player home warp Location to their current position
+
+__!clearhome__ - Clears the player home warp location.
+
+__!gohome__ - Warp the player to their current home warp location.
+
+## PaydayLib Integration
+
+WarpLib adds a product to the PaydayLib product list, allowing players to purchase permission to use the sethome, clearhome and gohome commands.
+
+The cost for use of the sethome, clearhome and gohome commands can also be set using the pdlsetprice command.
+
+{% include serverinstall.md %}

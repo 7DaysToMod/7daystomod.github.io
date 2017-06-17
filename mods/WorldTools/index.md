@@ -29,7 +29,46 @@ title: 7DaysToMod - Dedicated Server Mods - WorldTools
 
 World Editing commands for Dedicated Servers.
 
-{% include serverinstall.md %}
+## Dependencies
+
+This mod requires the following mods to already be installed on the server.
+
+[7dtmlib](http://7daystomod.com/mods/7dtmlib)
 
 ## Console Commands
 
+__wtselect__
+
+__wtclosest__
+
+__despawn__
+
+__wtrotateent__
+
+__wtspawn__
+
+__getblock__
+
+__setblock__
+
+__wtcopy__
+
+__wtexport__
+
+__wtfill__
+
+__wtfix__
+
+__fixchunkdensity__
+
+__wtimport__
+
+__wtpaste__
+
+__wtpasteprefab__
+
+__wtrotate__
+
+__wtundo__
+
+{% include serverinstall.md %}
