@@ -30,3 +30,25 @@ title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
 Server Economy mod for 7 days to die dedicated servers.
 
 {% include serverinstall.md %}
+
+## Console Commands
+
+__paydaylib info__ - Displays the current configuration settings for PaydayLib
+
+__paydaylib reload__ - Reloads the PaydayLib Config and Player Data
+
+__paydaylib enabletimer__ - Enables the PaydayLib User Pay Timer
+
+__paydaylib disabletimer__ - Disables the PaydayLib User Pay Timer
+
+__paydaylib currency <currency_name>__ - Changes the name of the in game Currency
+
+__paydaylib rate <amount>__ - Sets the amount of points a player receives each real-world Minute.
+
+__paydaylib startrate <starting_balance>__ - Sets the amount of points a player recieves the first time they join the server.
+
+## Addons
+
+[PaydayBounties](http://7daystmod.com/mods/paydaybounties) - Player Bounty chat commands for PvP enabled servers.
+
+[7dtmWarpLib](http://7daystomod.com/mods/warplib) - Adds purchasable chat commands for player home warps.
