@@ -41,11 +41,40 @@ __paydaylib enabletimer__ - Enables the PaydayLib User Pay Timer
 
 __paydaylib disabletimer__ - Disables the PaydayLib User Pay Timer
 
-__paydaylib currency <currency_name>__ - Changes the name of the in game Currency
+__paydaylib currency &lt;currency_name&gt;__ - Changes the name of the in game Currency (The Currency name defaults to "Coins")
 
-__paydaylib rate <amount>__ - Sets the amount of points a player receives each real-world Minute.
+__paydaylib rate &lt;amount&gt;__ - Sets the amount of points a player receives each real-world Minute.
 
-__paydaylib startrate <starting_balance>__ - Sets the amount of points a player recieves the first time they join the server.
+__paydaylib startrate &lt;starting_balance&gt;__ - Sets the amount of points a player recieves the first time they join the server.
+
+
+## Chat Commands
+
+__!balance__ - Show your current balance
+
+__!listproducts__ - Shows you a list of purchasble products
+
+__!buy &lt;ProductMame&gt;__ - Buy the product &lt;ProductName&gt;
+
+__!pay &lt;PlayerName&gt; &lt;amount&gt; - Transfer &lt;amount&gt; coins from your balance to &lt;PlayerName&gt;
+
+## Quick Setup Guide
+
+Ensure you have admin rights and run the following commands
+
+This will set up Paydaylib with a currency called "MyCoolNameForCoins".  Each player will recieve 50 MyCoolNameForCoins when they first join, and an additional 1 MyCoolNameForCoins per minute they are on the server.
+
+```
+
+paydaylib currency MyCoolNameForCoins
+
+paydaylib rate 1
+
+paydaylib startrate 50
+
+paydaylib enabletimer
+
+```
 
 ## Addons
 
