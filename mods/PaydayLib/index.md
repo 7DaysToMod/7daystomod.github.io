@@ -56,7 +56,7 @@ __!listproducts__ - Shows you a list of purchasble products
 
 __!buy &lt;ProductMame&gt;__ - Buy the product &lt;ProductName&gt;
 
-__!pay &lt;PlayerName&gt; &lt;amount&gt; - Transfer &lt;amount&gt; coins from your balance to &lt;PlayerName&gt;
+__!pay &lt;PlayerName&gt; &lt;amount&gt;__ - Transfer &lt;amount&gt; coins from your balance to &lt;PlayerName&gt;
 
 ## Quick Setup Guide
 
