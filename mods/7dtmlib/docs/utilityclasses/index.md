@@ -6,14 +6,14 @@ title: 7DaysToMod - Dedicated Server Mods - 7dtmlib - Utility Classes
 
 7dtm provides a few utility classes for common tasks
 
-# BlockUtils
+## BlockUtils
 
-# EntityUtils
+## EntityUtils
 
-# FileUtils
+## FileUtils
 
-# ItemUtils
+## ItemUtils
 
-# PlayerUtils
+## PlayerUtils
 
-# WorldUtils
+## WorldUtils
