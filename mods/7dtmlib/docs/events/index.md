@@ -29,12 +29,29 @@ namespace MyCustomMod
 
 ## Server Events
 
-### OnGameStarted()
-- OnGameStopped()
-- OnGameStartDone()
-- OnGameUpdate()
-- OnGameStatsChanged(string StateName, object NewValue)
-- OnGamePrefsChanged(EnumGamePrefs GamePref)
+#### OnGameStarted()
+
+Event wrapper for the ModApiAbstract.GameAwake method
+
+#### OnGameStopped()
+
+Event Wrapper for the ModApiAbstract.GameShutdown method
+
+#### OnGameStartDone()
+
+EventWrapper for the ModApiAbstract.GameStartDone method
+
+#### OnGameUpdate()
+
+Event Wrapper for the ModApiAbstract.GameUpdate method
+
+#### OnGameStatsChanged(string StateName, object NewValue)
+
+Fired when a value in the GameStat object has changed
+
+#### OnGamePrefsChanged(EnumGamePrefs GamePref)
+
+Fired when a value in the GamePrefs object has changed
 
 ## Chunk Events
 - OnChunkColorsDone(Chunk chunk)
