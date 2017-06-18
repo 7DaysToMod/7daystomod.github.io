@@ -6,6 +6,7 @@ More detailed information will be available soon
 __Example__
 
 ```
+
 namespace MyCustomMod
 {
 	public class MyCustomMod: ModApiAbstract
@@ -17,6 +18,7 @@ namespace MyCustomMod
 		Log.Out(String.Format("Game Time: Day {0}, {1}:{2}", day, hour, minute));
 	}
 }
+
 ```
 
 ## Server Events
@@ -66,8 +68,8 @@ namespace MyCustomMod
 - OnNPCBanditUnloaded(EntityBandit entity, string reason)
 - OnNPCSurvivorLoaded(EntitySurvivor entity)
 - OnNPCSurvivorUnloaded(EntitySurvivor entity, string reason)
-- OnTraderPrimaryInventoryChanged(EntityNPC entity, List<ItemStack> previousInventory)
-- OnTraderSecretStashChanged(EntityNPC entity, List<ItemStack[]> previousStash)
+- OnTraderPrimaryInventoryChanged(EntityNPC entity, List&lt;ItemStack&gt; previousInventory)
+- OnTraderSecretStashChanged(EntityNPC entity, List&lt;ItemStack[]&gt; previousStash)
 
 ## Block Events
 - OnBlockChanged(Vector3i pos, BlockValue oldBlock, BlockValue newBlock)
