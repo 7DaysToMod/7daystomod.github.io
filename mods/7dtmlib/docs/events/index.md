@@ -31,38 +31,59 @@ namespace MyCustomMod
 
 #### OnGameStarted()
 
-Event wrapper for the ModApiAbstract.GameAwake method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event wrapper for the ModApiAbstract.GameAwake method
 
 #### OnGameStopped()
 
-Event Wrapper for the ModApiAbstract.GameShutdown method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Wrapper for the ModApiAbstract.GameShutdown method
 
 #### OnGameStartDone()
 
-EventWrapper for the ModApiAbstract.GameStartDone method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EventWrapper for the ModApiAbstract.GameStartDone method
 
 #### OnGameUpdate()
 
-Event Wrapper for the ModApiAbstract.GameUpdate method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Wrapper for the ModApiAbstract.GameUpdate method
 
 #### OnGameStatsChanged(string StateName, object NewValue)
 
-Fired when a value in the GameStat object has changed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a value in the GameStat object has changed
 
 #### OnGamePrefsChanged(EnumGamePrefs GamePref)
 
-Fired when a value in the GamePrefs object has changed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a value in the GamePrefs object has changed
 
 ## Chunk Events
-- OnChunkColorsDone(Chunk chunk)
-- OnChunkAdded(Chunk chunk)
-- OnBeforeChunkRemoved(Chunk chunk)
-- OnBeforeChunkSaved(Chunk chunk)
+
+#### OnChunkColorsDone(Chunk chunk)
+
+Event Wrapper for the ModApiAbstract.ChunkColorsDone method
+
+#### OnChunkAdded(Chunk chunk)
+
+Fired when a chunk has been loaded on the server
+
+#### OnBeforeChunkRemoved(Chunk chunk)
+
+Fired when before a chunk is unloaded on the server
+
+#### OnBeforeChunkSaved(Chunk chunk)
+
+Fired before a chunk is saved on the server
 
 ## Game Time Events
-- OnLibTick()
-- OnGameMinute(int day, int hour, int minute)
-- OnGameHour(int day, int hour);
+
+#### OnLibTick()
+
+Fired every 40 game ticks.  This rate can be modified in the 7dtmlib config.
+
+#### OnGameMinute(int day, int hour, int minute)
+
+Fired on the change of every in game minute
+
+#### OnGameHour(int day, int hour);
+
+Fired on the changed of every in game hour
 
 ## Player Events
 - OnPlayerLogin(ClientInfo cInfo, string compatibilityVersion)
