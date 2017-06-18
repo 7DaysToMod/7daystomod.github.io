@@ -152,16 +152,46 @@ Fired when a player accepts a friend invite from another player
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a player removes a friend from their friend list.
 
 ## Entity Events
-- OnEntityLoaded(Entity entity)
-- OnEntityUnloaded(Entity entity, string reason)
-- OnNPCLoaded(EntityNPC entity)
-- OnNPCUnloaded(EntityNPC entity, string reason)
-- OnNPCBanditLoaded(EntityBandit entity)
-- OnNPCBanditUnloaded(EntityBandit entity, string reason)
-- OnNPCSurvivorLoaded(EntitySurvivor entity)
-- OnNPCSurvivorUnloaded(EntitySurvivor entity, string reason)
-- OnTraderPrimaryInventoryChanged(EntityNPC entity, List&lt;ItemStack&gt; previousInventory)
-- OnTraderSecretStashChanged(EntityNPC entity, List&lt;ItemStack[]&gt; previousStash)
+
+#### OnEntityLoaded(Entity entity)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when an entity is loaded into the world.  These include item entities.
+
+#### OnEntityUnloaded(Entity entity, string reason)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when an entity is unloaded from the world.  These include item entities.
+
+#### OnNPCLoaded(EntityNPC entity)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when an NPC is loaded.  This can be triggered by new entities being spawned, or existing entities being loaded within an existing chunk.
+
+#### OnNPCUnloaded(EntityNPC entity, string reason)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when an NPC is unloaded.  This can be triggered by entities being killed, as well as being unloaded with their chunk.
+
+#### OnNPCBanditLoaded(EntityBandit entity)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a Bandit Entity is loaded.
+
+#### OnNPCBanditUnloaded(EntityBandit entity, string reason)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a Bandit Entity is unloaded.
+
+#### OnNPCSurvivorLoaded(EntitySurvivor entity)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a Survivor Entity is loaded.
+
+#### OnNPCSurvivorUnloaded(EntitySurvivor entity, string reason)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when a Survivor Entity is unloeded.
+
+#### OnTraderPrimaryInventoryChanged(EntityNPC entity, List&lt;ItemStack&gt; previousInventory)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when the primary inventory of a trader has changed.  This is only fired after the player closes the trader interface.
+
+#### OnTraderSecretStashChanged(EntityNPC entity, List&lt;ItemStack[]&gt; previousStash)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fired when the secret stash of a trader has changed.  This is only fired after the player closes the trader interface.
 
 ## Block Events
 
