@@ -50,7 +50,7 @@ See the [ExPerm](./docs/experm) doc for more information.
 
 7dtmlib provides a mechanism for easy construction of chat command handlers.
 
-See the [Chat Commands](./docs/chatcommands) docs for more infortmation.
+See the [Chat Commands](./docs/chatcommands) docs for more information.
 
 ## Modding Utility Classes
 

@@ -49,7 +49,7 @@ __paydaylib currency &lt;currency_name&gt;__ - Changes the name of the in game C
 
 __paydaylib rate &lt;amount&gt;__ - Sets the amount of points a player receives each real-world Minute.
 
-__paydaylib startrate &lt;starting_balance&gt;__ - Sets the amount of points a player recieves the first time they join the server.
+__paydaylib startrate &lt;starting_balance&gt;__ - Sets the amount of points a player receives the first time they join the server.
 
 __pdlsetprice &lt;ProductName&gt; ;&lt;amount&gt;__ - Sets the price for a product
 
@@ -67,7 +67,7 @@ __!pay &lt;PlayerName&gt; &lt;amount&gt;__ - Transfer &lt;amount&gt; coins from 
 
 Ensure you have admin rights and run the following commands
 
-This will set up Paydaylib with a currency called "MyCoolNameForCoins".  Each player will recieve 50 MyCoolNameForCoins when they first join, and an additional 1 MyCoolNameForCoins per minute they are on the server.
+This will set up Paydaylib with a currency called "MyCoolNameForCoins".  Each player will receive 50 MyCoolNameForCoins when they first join, and an additional 1 MyCoolNameForCoins per minute they are on the server.
 
 ```
 

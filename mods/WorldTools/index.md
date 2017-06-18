@@ -37,38 +37,32 @@ This mod requires the following mods to already be installed on the server.
 
 ## Console Commands
 
-__wtselect__
+__wtselect__ - Sets the start or end point for a selection to the current player position
 
-__wtclosest__
+__wtselect &lt;StartX&gt; &lt;StartY&gt; &lt;StartZ&gt; \[&lt;EndX&gt; &lt;EndY&gt; &lt;EndZ&gt;\]__ - Sets the start and end position of the current selection to coordinates provided
 
-__despawn__
+__wtselect clear__ - clears the current selection
 
-__wtrotateent__
+__wtclosest &lt;PrefabName&gt;__ - Finds the closest instance of &lt;PrefabName&gt; to the player position
 
-__wtspawn__
+__despawn &lt;EntityID&gt;__ - Completely Despawns the entity with an id of &lt;EntityID&gt;
 
-__getblock__
+__wtrotateent &lt;EntityID&gt; &lt;DegreesToRotate&gt;__ - Rotate the way the entity with &lt;EntityID&gt; by the number ofdegrees supplied in &lt;DegreesToRotate&gt;
 
-__setblock__
+__wtcopy__ - Copies the content of the current selection
 
-__wtcopy__
+__wtexport &lt;PrefabName&gt; [&lt;yOffset&gt;]__ - Creates a new prefab called &lt;PrefabName&gt; with the content of the current selection, with the optional yOffset of &lt;yOffset&gt;
 
-__wtexport__
+__wtfill &lt;BlockName&gt;__ - Fills the current selection with the block &lt;BlockName&gt;
 
-__wtfill__
+__wtimport &lt;PrefabName&gt;__ - Import the Prefab &lt;PrefabName&gt; into the current player selection
 
-__wtfix__
+__wtpaste [&lt;Rotations&gt; &lt;yOffset&gt;]__ - Paste the current selection at the players current position with optional rotation and yOffset
 
-__fixchunkdensity__
+__wtpasteprefab &lt;PrefabName&gt; [&lt;Rotations&gt;]__ - Paste the Prefab called &lt;PrefabName&gt; at the current player position with optional number of rotations
 
-__wtimport__
+__wtrotate &lt;Rotations&gt;__ - Rotate the current player selection.  This will modify your world directly.
 
-__wtpaste__
-
-__wtpasteprefab__
-
-__wtrotate__
-
-__wtundo__
+__wtundo__ - Undo the last WorldTools Command.
 
 {% include serverinstall.md %}
