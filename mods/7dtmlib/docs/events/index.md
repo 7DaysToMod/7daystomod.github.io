@@ -28,7 +28,8 @@ namespace MyCustomMod
 ```
 
 ## Server Events
-- OnGameStarted()
+
+### OnGameStarted()
 - OnGameStopped()
 - OnGameStartDone()
 - OnGameUpdate()
