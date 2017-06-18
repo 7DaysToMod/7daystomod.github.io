@@ -14,7 +14,7 @@ title: 7DaysToMod - Dedicated Server Mods - 7dtmlib
 		</a>
 	</li>
 	<li class="link-toolbar-right">
-		<a href="http://7daystodie.com/forums/" class="social-icon" target="_blank" title="7DaysToDie.com Forum Post">
+		<a href="https://7daystodie.com/forums/showthread.php?65053-DEDI-WorldConfigs-Automated-XML-Config-Switching-for-Servers" class="social-icon" target="_blank" title="7DaysToDie.com Forum Post">
 			<img src="/images/placeholder_small.png" height="30">
 		</a>
 	</li>
