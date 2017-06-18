@@ -1,3 +1,8 @@
+---
+layout: default
+title: 7DaysToMod - Dedicated Server Mods - 7dtmlib - Chat Commands
+---
+
 # Chat Commands
 
 ## Creating a ChatCommand method

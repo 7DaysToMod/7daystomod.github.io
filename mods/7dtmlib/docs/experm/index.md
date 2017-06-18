@@ -1,3 +1,8 @@
+---
+layout: default
+title: 7DaysToMod - Dedicated Server Mods - 7dtmlib - ExPerm
+---
+
 # ExPerm
 
 ExPerm provides a node based group and user permission manager for mod developers to provide server administrators with fine grained control over the features of their mods.

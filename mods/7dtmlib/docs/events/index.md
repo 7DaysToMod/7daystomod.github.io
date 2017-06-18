@@ -1,3 +1,8 @@
+---
+layout: default
+title: 7DaysToMod - Dedicated Server Mods - 7dtmlib - Events
+---
+
 # Events
 
 7dtmlib wraps the existing API Methods into an expanded event system.
