@@ -38,29 +38,29 @@ Modding Utility Library for 7 Days to Die Dedicated Server Mods
 ## Extended Events
 7dtmlib wraps the existing mod functions using c# events and delegates and adds many new events for you to access within your mods including Entity and player Events, Block and Chunk events and Loot Container Events, among others.
 
-See the [Events](./docs/events.md) doc for more information.
+See the [Events](./docs/events) doc for more information.
 
 ## ExPerm - Node Based Permissions Manager
 7dtmlib provides a node based Group and user permissions manager, allowing server administrators fine grained control over the features of your mod.
 
-See the [ExPerm](./docs/experm.md) doc for more information.
+See the [ExPerm](./docs/experm) doc for more information.
 
 
 ## Chat Commands
 
 7dtmlib provides a mechanism for easy construction of chat command handlers.
 
-See the [Chat Commands](./docs/chatcommands.md) docs for more infortmation.
+See the [Chat Commands](./docs/chatcommands) docs for more infortmation.
 
 ## Modding Utility Classes
 
 7dtmlib wraps many common tasks into handy utility classes for faster mod development.
 
-See the [Utility Classes](./docs/utilityclasses.md) docs for more information.
+See the [Utility Classes](./docs/utilityclasses) docs for more information.
 
 {% include serverinstall.md %}
 
 ## Using 7dtmlib in your Server Mods
 Simply download the .dll file and add a reference to it in your project.
 
-More information can be found in the [Events](./docs/events.md), [ExPerm](./docs/experm.md), [ChatCommands](./docs/chatcommands.md) and [Utility Classes](./docs/utilityclasses.md) documentation.
+More information can be found in the [Events](./docs/events), [ExPerm](./docs/experm), [ChatCommands](./docs/chatcommands) and [Utility Classes](./docs/utilityclasses) documentation.
