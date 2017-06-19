@@ -37,8 +37,9 @@ Block Breaking - PlayerLogger provides a feature for logging the position of pla
 
 ## Console Commands
 
-__addplblock <BlockNameOrID>__ Adds the block with the name or id of &lt;BlockNameOrID&gt; to the list of blocks to be tracked.
-__remplblock <BlockNameOrID>__ Removes the block with the name or id of &lt;BlockNameOrID&gt; from the list of blocks to be tracked.
+__addplblock &lt;BlockNameOrID&gt;__ Adds the block with the name or id of &lt;BlockNameOrID&gt; to the list of blocks to be tracked.
+
+__remplblock &lt;BlockNameOrID&gt;__ Removes the block with the name or id of &lt;BlockNameOrID&gt; from the list of blocks to be tracked.
 
 {% include serverinstall.md %}
 
