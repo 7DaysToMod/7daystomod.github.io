@@ -35,7 +35,12 @@ Chat Logs - PlayerLogger keeps a log of the player chat in the world save folder
 
 Block Breaking - PlayerLogger provides a feature for logging the position of players when blocks in a defined list are broken
 
+## Console Commands
+
+__addplblock <BlockNameOrID>__ Adds the block with the name or id of &lt;BlockNameOrID&gt; to the list of blocks to be tracked.
+__remplblock <BlockNameOrID>__ Removes the block with the name or id of &lt;BlockNameOrID&gt; from the list of blocks to be tracked.
+
 {% include serverinstall.md %}
 
-## Using Player Logger
+
 
