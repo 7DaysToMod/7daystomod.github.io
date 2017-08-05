@@ -16,4 +16,4 @@ integratedweb true port_number
 ```
 
 after running this command, restart your server and then navigate your brower to the ip address of your server followed by the port number
-http://<ip_address>:<port_number>
+http://&lt;ip_address&gt;:&lt;port_number&gt;
