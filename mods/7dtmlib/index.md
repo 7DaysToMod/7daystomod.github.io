@@ -58,6 +58,12 @@ See the [Chat Commands](./docs/chatcommands) docs for more information.
 
 See the [Utility Classes](./docs/utilityclasses) docs for more information.
 
+## Integrated Web Server
+
+7dtmlib adds an optional Integrated web server, providing a central point of management for common server tasks.  An API is also provided to allow other mods to add their own settings and pages.
+
+See the [Integrated Web Server](./docs/integratedweb) docs for more information.
+
 {% include serverinstall.md %}
 
 ## Using 7dtmlib in your Server Mods
