@@ -9,7 +9,7 @@ A tiered progression levelling system, based on skill.
 ## Goal
  To replace the existing progression/perks system with a tiered system, where levelling and recipe unlocks are governed by the use of specific skills.
 
-### Skills
+## Skills
 
 #### Athletics
 
@@ -54,6 +54,15 @@ A tiered progression levelling system, based on skill.
 #### Cooking
 
 #### Farming
+
+#### Firearms
+
+#### Electronics
+
+#### Mechanics
+
+#### Chemistry
+
 
 ### Progression Chart
 
